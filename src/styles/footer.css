@@ -1,0 +1,5 @@
+.footer-bg {
+    height: 200px;
+    @apply p-24 flex justify-between
+
+}

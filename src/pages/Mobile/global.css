@@ -1,0 +1,53 @@
+.ap-mobile-scroll {
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    border-bottom: 1px solid #d1d1d1;
+}
+
+.ap-mobile-scroll span {
+    @apply py-3;
+    font-weight: 600;
+}
+
+.ap-s-link {
+    border-bottom: 2.5px solid #FFAB00;
+}
+
+.ap-banner-scroll {
+    width: 590px
+}
+
+.ap-m-rounded {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.ap-m-icon {
+    color: #777;
+    @apply flex flex-col justify-center items-center font-bold
+}
+
+.ap-icon-active {
+    color: #B61040;
+}
+.ap-m-loader {
+    animation: blink 1s infinite;
+    transform: scale(500px);
+}
+
+@keyframes blink {
+    0% {
+       width: 20px;
+    }
+
+    50% {
+        width: 50px;
+    }
+    90% {
+        width: 30px;
+    }
+    100% {
+        width: 20px;
+    }
+}

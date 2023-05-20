@@ -1,0 +1,15 @@
+.ap-banner {
+    background-image:linear-gradient(to right bottom, rgba(176, 7, 7, 0.927) ,rgba(119, 7, 7, 0.556)) ,url("../images/bg-drop.jpeg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    @apply flex 
+}
+
+.ap-board {
+    width: 70px;
+    background-color: rgb(255, 187, 0);
+    letter-spacing: 5px;
+}
+
